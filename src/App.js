@@ -5,14 +5,7 @@ import Editanddelete from "./Components/Editanddelete";
 
 export default function App() {
   const [text, setText] = useState("");
-  const [data, setData] = useState([
-    "Codechef",
-    "Codeforces",
-    "GeeksforGeeks",
-    "Leetcode",
-    "Hackerrank",
-    "Hackerearth",
-  ]);
+  const [data, setData] = useState(["Codechef", "Codeforces", "GeeksforGeeks", "Leetcode"]);
   const [edit, setEdit] = useState(-1);
   const [edittext, seteditText] = useState("");
 
